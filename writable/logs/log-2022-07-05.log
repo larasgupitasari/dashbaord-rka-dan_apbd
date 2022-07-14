@@ -1,0 +1,1173 @@
+CRITICAL - 2022-07-05 01:07:37 --> Undefined property: App\Controllers\Login_rak::$input
+in APPPATH\Controllers\login_rak.php on line 58.
+ 1 APPPATH\Controllers\login_rak.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login_rak::$input', 'APPPATH\\Controllers\\login_rak.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:07:58 --> Undefined variable: data
+in APPPATH\Controllers\login_rak.php on line 59.
+ 1 APPPATH\Controllers\login_rak.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\login_rak.php', 59, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:08:48 --> Undefined property: App\Controllers\Login_rak::$input
+in APPPATH\Controllers\login_rak.php on line 58.
+ 1 APPPATH\Controllers\login_rak.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login_rak::$input', 'APPPATH\\Controllers\\login_rak.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:10:47 --> Undefined variable: request
+in APPPATH\Controllers\login_rak.php on line 58.
+ 1 APPPATH\Controllers\login_rak.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\login_rak.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:12:41 --> Too few arguments to function App\Controllers\Login_rak::__construct(), 0 passed in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\login_rak.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Login_rak->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:13:17 --> Too few arguments to function App\Controllers\Login_rak::__construct(), 0 passed in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\login_rak.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Login_rak->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:13:18 --> Too few arguments to function App\Controllers\Login_rak::__construct(), 0 passed in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\login_rak.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Login_rak->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:19:08 --> Too few arguments to function App\Controllers\Login_rak::do_login(), 0 passed in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\login_rak.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:19:30 --> Undefined variable: request
+in APPPATH\Controllers\login_rak.php on line 63.
+ 1 APPPATH\Controllers\login_rak.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\login_rak.php', 63, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:22:39 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::where()
+in APPPATH\Models\Login_model.php on line 16.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:26:38 --> Undefined variable: USERNAME
+in APPPATH\Models\Login_model.php on line 16.
+ 1 APPPATH\Models\Login_model.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: USERNAME', 'APPPATH\\Models\\Login_model.php', 16, [...])
+ 2 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:27:04 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #125, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:27:04 --> Call to a member function getFirstRow() on bool
+in APPPATH\Models\Login_model.php on line 18.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:29:16 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(79): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:33:29 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #125, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:33:29 --> Call to a member function getFirstRow() on bool
+in APPPATH\Models\Login_model.php on line 18.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:33:50 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #125, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:33:50 --> Call to a member function getRow() on bool
+in APPPATH\Models\Login_model.php on line 18.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:34:52 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #126, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:34:52 --> Call to a member function getRow() on bool
+in APPPATH\Models\Login_model.php on line 18.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:35:44 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:35:44 --> Call to a member function getRow() on bool
+in APPPATH\Models\Login_model.php on line 18.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:36:46 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:36:46 --> Call to a member function getResult() on bool
+in APPPATH\Models\Login_model.php on line 18.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:38:16 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:38:16 --> Call to a member function getResult() on bool
+in APPPATH\Models\Login_model.php on line 19.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 01:39:10 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '5f4dcc3b5aa765d61d8327deb882cf99' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('admin', '5f4dcc3b5aa765d...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-05 01:39:34 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '827ccb0eea8a706c4c34a16891f84e7b' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('bpkpad', '827ccb0eea8a706...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-05 01:40:08 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '827ccb0eea8a706c4c34a16891f84e7b' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('bpkpad', '827ccb0eea8a706...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-05 01:40:55 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '827ccb0eea8a706c4c34a16891f84e7b' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('bpkpad', '827ccb0eea8a706...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-05 01:41:15 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;delete_at&quot; does not exist
+LINE 1: ...PASSWORD = '827ccb0eea8a706c4c34a16891f84e7b' AND DELETE_AT ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;m_user.deleted_at&quot;. in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT * FROM M...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM M...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM M...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\Login_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM M...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('bpkpad', '827ccb0eea8a706...')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 01:41:15 --> Call to a member function getResult() on bool
+in APPPATH\Models\Login_model.php on line 18.
+ 1 APPPATH\Controllers\login_rak.php(67): App\Models\Login_model->getDataUserPass('bpkpad', '827ccb0eea8a706c4c34a16891f84e7b')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:42:35 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:43:32 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(80): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:44:24 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:46:15 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:46:56 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:48:49 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:52:58 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:53:41 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:56:48 --> Undefined property: App\Controllers\Login_rak::$load
+in APPPATH\Controllers\login_rak.php on line 14.
+ 1 APPPATH\Controllers\login_rak.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login_rak::$load', 'APPPATH\\Controllers\\login_rak.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Login_rak->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 01:59:39 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\login_rak.php(81): redirect('login/index/error')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login_rak->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_rak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 02:58:18 --> Class 'App\Models\ReportAPBD_model' not found
+in APPPATH\Controllers\ReportAPBD.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\ReportAPBD->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:44:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportAPBD.php(21): CodeIgniter\Model->__call('pie_anggaran', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:52:08 --> Undefined variable: Anggaran
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 1.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Anggaran', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 1, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:52:32 --> Undefined index: anggaranpendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 8.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: anggaranpendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:53:31 --> Undefined index: anggaranpendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 8.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: anggaranpendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:55:22 --> Undefined index: anggaranpendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 8.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: anggaranpendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:55:45 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\ReportAPBD.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ReportAPBD.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ReportAPBD')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ReportAPBD')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ReportAPBD')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\ReportAPBD', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:57:38 --> Undefined variable: real
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 60.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: real', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:58:48 --> Undefined index: realiasipendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 60.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: realiasipendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:59:06 --> syntax error, unexpected ']'
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 60.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 3 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 03:59:54 --> syntax error, unexpected ''anggaranpendapatan'' (T_CONSTANT_ENCAPSED_STRING)
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 60.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 3 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 04:00:12 --> Undefined variable: Januari
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 113.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Januari', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(27): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 04:03:33 --> Class 'App\Controllers\Home_model' not found
+in APPPATH\Controllers\ReportAPBD.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\ReportAPBD->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 04:56:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportAPBD.php(23): CodeIgniter\Model->__call('getDataRealPendapatan', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 04:57:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ReportAPBD.php(23): CodeIgniter\Model->__call('getDataRealPendapatan', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 04:57:51 --> Undefined index: realisasi
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 122.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: realisasi', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 122, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(34): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 04:59:16 --> Division by zero
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 174.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 174, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(34): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 19:58:28 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 19:58:41 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:00:09 --> syntax error, unexpected ';'
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:00:18 --> Undefined variable: session
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:00:20 --> Undefined variable: session
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:01:44 --> Undefined variable: _SESSION
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:01:46 --> Undefined variable: _SESSION
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:01:53 --> Undefined variable: _SESSION
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:02:28 --> Undefined variable: session
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Home.php', 14, [])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:10:34 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 29.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 29, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:10:54 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 29.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 29, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:11:49 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:11:50 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:12:11 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:12:45 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:13:02 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:14:18 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 29.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 29, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:14:19 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 29.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 29, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:15:55 --> syntax error, unexpected 'print_r' (T_STRING)
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:16:52 --> Undefined index: is_login
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: is_login', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:17:06 --> Trying to get property 'is_login' of non-object
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'is_login\' of non-object', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:18:49 --> syntax error, unexpected 'exit' (T_EXIT), expecting ';' or ','
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:18:51 --> syntax error, unexpected 'exit' (T_EXIT), expecting ';' or ','
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:19:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:20:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:20:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:21:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:21:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:21:58 --> syntax error, unexpected ')'
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:22:00 --> syntax error, unexpected ')'
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:22:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:22:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:22:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:27:53 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 33, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:27:54 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 33, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:28:21 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:29:47 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:30:12 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:30:13 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:30:26 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:31:02 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 38.
+ 1 APPPATH\Controllers\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 38, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:31:04 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 38.
+ 1 APPPATH\Controllers\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 38, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:35:10 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:35:18 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:36:30 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:51:08 --> syntax error, unexpected ';', expecting ')'
+in APPPATH\Config\Routes.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:51:10 --> syntax error, unexpected ';', expecting ')'
+in APPPATH\Config\Routes.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:51:35 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+in APPPATH\Config\Routes.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:51:36 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+in APPPATH\Config\Routes.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 20:52:36 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+in SYSTEMPATH\Filters\Auth.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-05 20:54:31 --> Declaration of App\Filters\Auth::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+in SYSTEMPATH\Filters\Auth.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-05 20:55:24 --> Class 'CodeIgniter\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('DasboardAnggaranKAS', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:00:38 --> Class 'CodeIgniter\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('DasboardAnggaranKAS', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:00:39 --> Class 'CodeIgniter\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('DasboardAnggaranKAS', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:00:58 --> Class 'App\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('DasboardAnggaranKAS', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:01:00 --> Class 'App\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('DasboardAnggaranKAS', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:01:10 --> Class 'CodeIgniter\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('DasboardAnggaranKAS', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:04:44 --> Class 'CodeIgniter\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('DasboardAnggaranKAS', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:39:38 --> Undefined index: anggaranpendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 95.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: anggaranpendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 95, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:41:44 --> Undefined index: anggaranpendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 95.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: anggaranpendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 95, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:45:09 --> Undefined variable: summaryrealbelannja
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 104.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: summaryrealbelannja', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:45:26 --> Undefined index: anggaranpendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 175.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: anggaranpendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 175, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:45:46 --> Undefined variable: summaryrealpembiayaann
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 176.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: summaryrealpembiayaann', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 176, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:46:11 --> Undefined index: realiasipendapatan
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 180.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: realiasipendapatan', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 180, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 21:46:30 --> Undefined variable: get10DataRealBelanja
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 492.
+ 1 APPPATH\Views\reportapbd\DashboardReportAPBD.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: get10DataRealBelanja', 'APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php', 492, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportAPBD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 22:06:41 --> syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 3 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 22:06:57 --> syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 3 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 22:20:10 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\reportapbd\DashboardReportAPBD.php on line 142.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportAPBD', [], true)
+ 3 APPPATH\Controllers\ReportAPBD.php(40): view('reportapbd/DashboardReportAPBD', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 22:40:29 --> Cannot redeclare App\Models\ReportAPBD_model::getDataReal()
+in APPPATH\Models\ReportAPBD_model.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-05 22:43:19 --> Undefined variable: getDataRealBelanja
+in APPPATH\Views\reportapbd\DashboardReportBelanjaSKPD.php on line 21.
+ 1 APPPATH\Views\reportapbd\DashboardReportBelanjaSKPD.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getDataRealBelanja', 'APPPATH\\Views\\reportapbd\\DashboardReportBelanjaSKPD.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportBelanjaSKPD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportBelanjaSKPD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(49): view('reportapbd/DashboardReportBelanjaSKPD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DetailBelanja()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 22:51:22 --> Undefined variable: getDataRealBelanja
+in APPPATH\Views\reportapbd\DashboardReportBelanjaSKPD.php on line 21.
+ 1 APPPATH\Views\reportapbd\DashboardReportBelanjaSKPD.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getDataRealBelanja', 'APPPATH\\Views\\reportapbd\\DashboardReportBelanjaSKPD.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportBelanjaSKPD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportBelanjaSKPD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(49): view('reportapbd/DashboardReportBelanjaSKPD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DetailBelanja('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 22:52:40 --> syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH\Controllers\ReportAPBD.php on line 44.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ReportAPBD.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ReportAPBD')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ReportAPBD')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ReportAPBD')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\ReportAPBD', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 22:57:24 --> Undefined variable: getDataRealBelanja
+in APPPATH\Views\reportapbd\DashboardReportBelanjaSKPD.php on line 21.
+ 1 APPPATH\Views\reportapbd\DashboardReportBelanjaSKPD.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getDataRealBelanja', 'APPPATH\\Views\\reportapbd\\DashboardReportBelanjaSKPD.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportapbd\\DashboardReportBelanjaSKPD.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('reportapbd/DashboardReportBelanjaSKPD', [], true)
+ 5 APPPATH\Controllers\ReportAPBD.php(52): view('reportapbd/DashboardReportBelanjaSKPD', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DetailBelanja('2.12.0.00.0.00.01.0000')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 23:02:12 --> ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;r&quot;
+LINE 2: ...a.realisasi/a.anggaran * 100) , 0) as prosentase, r.kd_sub_u...
+                                                             ^ in C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #129, 'select coalesce...')
+#2 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select coalesce...')
+#3 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select coalesce...')
+#4 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Models\ReportAPBD_model.php(59): CodeIgniter\Database\BaseConnection->query('select coalesce...')
+#5 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\app\Controllers\ReportAPBD.php(49): App\Models\ReportAPBD_model->getDataRealSKPD('5', '2.12.0.00.0.00....')
+#6 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\ReportAPBD->DetailBelanja('2.12.0.00.0.00....')
+#7 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+#8 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-05 23:02:12 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ReportAPBD_model.php on line 60.
+ 1 APPPATH\Controllers\ReportAPBD.php(49): App\Models\ReportAPBD_model->getDataRealSKPD('5', '2.12.0.00.0.00.01.0000')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DetailBelanja('2.12.0.00.0.00.01.0000')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 23:21:43 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user &quot;postgres&quot;
+CRITICAL - 2022-07-05 23:21:43 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user &quot;postgres&quot;
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\ReportAPBD_model.php(43): CodeIgniter\Database\BaseConnection->query('select coalesce(a.anggaran,0) as anggaran , coalesce(a.realisasi,0)  as realisasi, 
+			a.kd_unit, a.nm_unit, coalesce((a.realisasi/a.anggaran * 100) , 0) as prosentase, a.name1 from
+			(select sum(r.anggaran) as anggaran, sum(r.realisasi) as realisasi, r.kd_unit, r.nm_unit, mu.name1 
+			from realisasiapbdyearnow r
+			left join m_unit mu 
+			on r.kd_unit  = mu.id_reference_unit and mu.id_reference_level_unit = \'10\'
+			where r.kd_rek90_1 = \'4\'
+			group by r.kd_unit , r.nm_unit, mu.name1  ) a
+			order by prosentase desc')
+ 3 APPPATH\Controllers\ReportAPBD.php(23): App\Models\ReportAPBD_model->getDataReal('4')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

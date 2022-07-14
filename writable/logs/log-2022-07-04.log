@@ -1,0 +1,471 @@
+CRITICAL - 2022-07-04 02:55:11 --> Undefined property: App\Controllers\Home::$Home_model
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$Home_model', 'APPPATH\\Controllers\\Home.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 02:56:16 --> Undefined variable: Home_model
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Home_model', 'APPPATH\\Controllers\\Home.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 02:57:28 --> Undefined variable: Home_model
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Home_model', 'APPPATH\\Controllers\\Home.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 02:57:30 --> Undefined variable: Home_model
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Home_model', 'APPPATH\\Controllers\\Home.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 03:00:13 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-07-04 03:00:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Home_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_belanja.nm_skpd, SUM(t_rak_belanja.bulan1) AS anggaran, SUM(t_realisasi_rekening_belanja.nilai_realisasi) AS realisasi 
+ 		FROM t_rak_belanja
+ 		LEFT JOIN t_realisasi_rekening_belanja ON t_rak_belanja.kd_skpd=t_realisasi_rekening_belanja.kd_skpd 
+ 		AND t_rak_belanja.kd_sub_kegiatan=t_realisasi_rekening_belanja.kd_sub_kegiatan
+ 		AND t_rak_belanja.kd_rekening=t_realisasi_rekening_belanja.kd_rekening
+ 		WHERE t_realisasi_rekening_belanja.bulan_dok = \'Jan\'
+ 		GROUP BY t_rak_belanja.nm_skpd,t_rak_belanja.kd_skpd
+ 		ORDER BY t_rak_belanja.kd_skpd')
+ 3 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 03:01:52 --> You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 53.
+ 1 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 03:02:25 --> You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 53.
+ 1 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(136): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\Home.php(10): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 03:03:04 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 2:    FROM t_rak_belanja
+                ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT t_rak_be...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT t_rak_be...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t_rak_be...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_be...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 03:03:04 --> Call to a member function result_array() on bool
+in APPPATH\Models\Home_model.php on line 20.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:04:31 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 2:    FROM t_rak_belanja
+                ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT t_rak_be...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT t_rak_be...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t_rak_be...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_be...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:04:31 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 20.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:05:55 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 2:    FROM t_rak_belanja
+                ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT t_rak_be...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT t_rak_be...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t_rak_be...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_be...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:05:55 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 20.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:06:57 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 2:    FROM t_rak_belanja
+                ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT t_rak_be...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT t_rak_be...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t_rak_be...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_be...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:06:57 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 20.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:08:13 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 2:    FROM t_rak_belanja
+                ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'SELECT t_rak_be...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT t_rak_be...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t_rak_be...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_be...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:08:13 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 26.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:08:43 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 1: select * from t_rak_belanja
+                      ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'select * from t...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select * from t...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:08:43 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 04:10:03 --> Undefined variable: Home_model
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Home_model', 'APPPATH\\Controllers\\Home.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:10:20 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 1: select * from t_rak_belanja
+                      ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'select * from t...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select * from t...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(24): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:10:20 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(24): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:20:13 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 1: select * from t_rak_belanja
+                      ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'select * from t...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select * from t...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(24): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:20:13 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(24): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:29:29 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 1: select * from t_rak_belanja
+                      ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'select * from t...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select * from t...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:29:29 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:33:10 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 1: select * from t_rak_belanja
+                      ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'select * from t...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select * from t...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:33:10 --> Call to a member function getResult() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 04:39:25 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;t_rak_belanja&quot; does not exist
+LINE 1: select * from t_rak_belanja
+                      ^ in C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\D\\programfil...', 135, Array)
+#1 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #117, 'select * from t...')
+#2 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select * from t...')
+#3 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#4 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#5 C:\D\programfile2\xampp5\htdocs\codeigniter4\app\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+#6 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\D\programfile2\xampp5\htdocs\codeigniter4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\D\programfile2\xampp5\htdocs\codeigniter4\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 04:39:25 --> Call to a member function result_array() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 04:42:09 --> Call to undefined method CodeIgniter\Database\Postgre\Result::result_array()
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 04:42:13 --> Call to undefined method CodeIgniter\Database\Postgre\Result::result_array()
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Home_model->getJanuari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 04:43:07 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'APPPATH\\Controllers\\Home.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 04:46:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\home\index.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(28): view('home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 04:52:09 --> Undefined index: realisasi
+in APPPATH\Views\home\index.php on line 121.
+ 1 APPPATH\Views\home\index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: realisasi', 'APPPATH\\Views\\home\\index.php', 121, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 09:14:15 --> Invalid file: home/DasboardAnggaranKAS.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/DasboardAnggaranKAS.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/DasboardAnggaranKAS', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('home/DasboardAnggaranKAS', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 09:14:29 --> Invalid file: home/DasboardAnggaranKAS.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/DasboardAnggaranKAS.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/DasboardAnggaranKAS', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('home/DasboardAnggaranKAS', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:23:42 --> Class 'App\Controllers\Feb_model' not found
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:25:04 --> Class 'App\Controllers\Feb_model' not found
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:27:10 --> Class 'App\Controllers\Feb_model' not found
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:30:44 --> Call to undefined method CodeIgniter\Database\Postgre\Result::result_array()
+in APPPATH\Models\Feb_model.php on line 26.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\Feb_model->getFebruari()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasFebruari()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:46:00 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+in APPPATH\Models\Mar_model.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Mar_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mar_model')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mar_model')
+ 4 APPPATH\Controllers\Home.php(16): spl_autoload_call('App\\Models\\Mar_model')
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:47:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(49): CodeIgniter\Model->__call('getMaret', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasMaret()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:49:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('getApril', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasApril()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:49:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('getApril', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasApril()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:49:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('getApril', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasApril()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 19:50:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(74): CodeIgniter\Model->__call('getMei', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasMei()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 22:06:56 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user &quot;postgres&quot;
+CRITICAL - 2022-07-04 22:06:56 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user &quot;postgres&quot;
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Home_model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_belanja.nm_skpd, SUM(t_rak_belanja.bulan1) AS anggaran, SUM(t_realisasi_rekening_belanja.nilai_realisasi) AS realisasi 
+ 		FROM t_rak_belanja
+ 		LEFT JOIN t_realisasi_rekening_belanja ON t_rak_belanja.kd_skpd=t_realisasi_rekening_belanja.kd_skpd 
+ 		AND t_rak_belanja.kd_sub_kegiatan=t_realisasi_rekening_belanja.kd_sub_kegiatan
+ 		AND t_rak_belanja.kd_rekening=t_realisasi_rekening_belanja.kd_rekening
+ 		WHERE t_realisasi_rekening_belanja.bulan_dok = \'Jan\'
+ 		GROUP BY t_rak_belanja.nm_skpd,t_rak_belanja.kd_skpd
+ 		ORDER BY t_rak_belanja.kd_skpd')
+ 3 APPPATH\Controllers\Home.php(24): App\Models\Home_model->getJanuari()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
