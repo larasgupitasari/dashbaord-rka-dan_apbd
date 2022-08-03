@@ -1,5 +1,9 @@
+<div style="height:20px"></div>
 
-<div style="height:70px"></div>
+<div class="container" style="padding:10px">
+	<h5> Report Realisasi APBD Kabupaten Tuban Tahun Anggaran 2022</h5>
+	<hr style="height:5px; border-width:0; color:gray; background-color:gray">
+</div>
 
 <div class="container">
 	<div class="row">
@@ -174,7 +178,7 @@
 			<div class="col-md-6">
 				<div class="p-2 mb-4 rounded" style="height: 60px; background: #B1BCE6  ; margin-top: 25px; box-shadow: 0.5px 0.5px 7px grey;"><b> Total Pembiayaan Seluruh SKPD : Rp.<?= number_format(($summaryanggpembiayaan[0]['anggaranpembiayaan']), 0, ',', '.'); ?></b></div>
 				<div class="p-2 mb-4 rounded" style="height: 60px; background:  #B7E5DD   ; margin-bottom: 25px; box-shadow: 0.5px 0.5px 7px grey;"><b> Capaian Realisasi Pembiyaan Seluruh SKPD : Rp.<?= number_format(($summaryrealpembiayaan[0]['realiasipembiayaan']),0,',','.'); ?> </b></div>
-				<div class="p-2 mb-4 rounded" style="height: 60px; background:  #F1F0C0   ; margin-bottom: 25px; box-shadow: 0.5px 0.5px 7px grey;"><b> Sisa Pembiyaan : Rp.<?php
+				<div class="p-2 mb-4 rounded" style="height: 60px; background:  #F1F0C0   ; margin-bottom: 25px; box-shadow: 0.5px 0.5px 7px grey;"><b> Sisa Pembiayaan : Rp.<?php
 
 					$sisa = (int)$summaryanggpembiayaan[0]['anggaranpembiayaan'] - (int)$summaryrealpembiayaan[0]['realiasipembiayaan'];
 					if($sisa <=0 ){
@@ -391,7 +395,7 @@
 	        type: 'column'
 	    },
 	    title: {
-	        text: '10 Besar Capaiaan Data Pendapatan'
+	        text: '10 Besar Capaian Data Pendapatan'
 	    },
 	    xAxis: {
 	        type: 'category',

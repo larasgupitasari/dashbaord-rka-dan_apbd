@@ -50,16 +50,42 @@
     border-color: #3A5BA0;
 }
 </style>
+  <title>Report - Realisasi APBD</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="width: 100%; background: #4080bf; color:white;">
 
-    <title>Report - Realisasi APBD</title>
-  </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-light rounded" style="width: 100%; background: #3A5BA0; color:white;">
-        <a class="navbar-brand">Report Realisasi APBD Kabupaten Tuban Tahun Anggaran 2022</a>
-         <div style="float: right; padding-left: 600px;" class="col-md-6">
-          <a href="<?php echo base_url(); ?>/log_outapbd"><button class="btn btn-warning">Logout</button></a>
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="<?= base_url();?>\DasboardAnggaranKAS" style="color:white">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color:white">
+              Report Realisasi
+              </a>
+              <div class="dropdown-menu">
+              <a class="dropdown-item" href="<?= base_url();?>\AnggaranKasJanuari">Realisasi Anggaran Kas</a>
+              <a class="dropdown-item" href="<?= base_url();?>\DashboardAPBD">Realisasi APBD</a>
+          </li>
+        </ul>
+      </div>
+
+        
+        <div class="col-md-1">
+
+          <li class="nav-item dropdown float-left" style="list-style-type: none;">
+            <a data-toggle="dropdown" aria-haspopup="true">
+              <span class="bi bi-gear-fill fa-2x"></span>
+            </a>
+            <div class="dropdown-menu pull-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="<?php echo base_url();?>/GantiPassword">Ganti Password</a>
+              <a class="dropdown-item" href="<?php echo base_url();?>/log_outrak">Logout</a>
+            </div>
+          </li>
+
         </div>
-      </nav>
-    
+    </nav>
+  
 
 

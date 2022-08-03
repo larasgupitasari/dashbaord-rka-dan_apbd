@@ -32,12 +32,12 @@
 
 .page-item.active .page-link {
   color: white; !important;
-  background: #873600 !important;
-  border-color: #873600;
+  background: #4080bf !important;
+  border-color: #4080bf;
 }
 .pagination > li > a,
 .pagination > li > span {
-    color: #873600
+    color: #4080bf
 }
 
 .pagination > .active > a,
@@ -49,32 +49,84 @@
     background-color: #873600;
     border-color: #873600;
 }
+
+hr {
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+  border: 0;
+  height: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 </style>
-
-    <title><?php echo $bulan; ?></title>
-  </head>
+</head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light rounded" style="width: 100%; background: #873600; color:white;">
-        <a class="navbar-brand">Realisasi Belanja SKPD Berdasarkan Anggaran Kas Bulan <?php echo $bulan; ?> Tahun Anggaran 2022</a>
-        <div style="float: right; padding-left: 600px;" class="col-md-6">
-          <a href="<?php echo base_url(); ?>/log_outrak"><button class="btn btn-warning">Logout</button></a>
-        </div>
-      </nav>
-    
-    <div class="container" style="padding-top: 20px;"> 
-      <div class="dropdown show" style="float: right; box-shadow: 0.5px 0.5px 7px grey;" class="col-md-6">
-        <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Pilih Bulan
-        </a>
+      <nav class="navbar navbar-expand-lg navbar-light" style="width: 100%; background: #4080bf; color:white;">
 
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="<?= base_url();?>\DasboardAnggaranKAS">Januari</a>
-          <a class="dropdown-item" href="<?= base_url();?>\AnggaranKasFebruari">Februari</a>
-          <a class="dropdown-item" href="<?= base_url();?>\AnggaranKasMaret">Maret</a>
-          <a class="dropdown-item" href="<?= base_url();?>\AnggaranKasApril">April</a>
-          <a class="dropdown-item" href="<?= base_url();?>\AnggaranKasMei">Mei</a>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="<?= base_url();?>\DasboardAnggaranKAS" style="color:white">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color:white">
+                Report Realisasi
+                </a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="<?= base_url();?>\AnggaranKasJanuari">Realisasi Anggaran Kas</a>
+                <a class="dropdown-item" href="<?= base_url();?>\DashboardAPBD">Realisasi APBD</a>
+            </li>
+          </ul>
+        </div>
+
+          
+          <div class="col-md-1">
+
+            <li class="nav-item dropdown float-left" style="list-style-type: none;">
+              <a data-toggle="dropdown" aria-haspopup="true">
+                <span class="bi bi-gear-fill fa-2x"></span>
+              </a>
+              <div class="dropdown-menu pull-right" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#gantipw">Ganti Password</a>
+                <a class="dropdown-item" href="<?php echo base_url();?>/log_outrak">Logout</a>
+              </div>
+            </li>
+          </div>
+      </nav>
+
+      <div class="modal fade" id="gantipw" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Ganti Password</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                  <tr>
+                    <td>Password Saat ini</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" required></td>
+                  </tr>
+                  <tr>
+                    <td>Password Baru</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" required></td>
+                  </tr>
+                  <tr>
+                    <td>Konfirmasi Password Baru</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" required></td>
+                  </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" style="background-color: #4080bf; color: white">Simpan</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
 

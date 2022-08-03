@@ -1,7 +1,7 @@
     <br> 
-    <hr style="width: 10%; background-color: #873600;">
+    <hr style="width: 10%; height:1px; background-color: #3A5BA0;">
 
-    <div style="background: #873600; padding: 10px; color:white;">
+    <div style="background: #4080bf; padding: 10px; color:white;">
       <center>
         <p>Copyright &copy; 2022 - All Right reserved &bullet; Designed by BPKPAD Kab. Tuban</p>
       </center>

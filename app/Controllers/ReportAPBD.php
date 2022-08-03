@@ -44,17 +44,15 @@ class ReportAPBD extends BaseController
 		$data['summaryanggpembiayaan'] = $this->ReportAPBD_model->SummaryAnggaranPembiayaan($id_unit,$role_dashboard);
 
 		if($role_dashboard == 3){
-			return view('templates/header1', $data)
+			return view('templates/header', $data)
 				. view('reportapbd/DashboardReportAPBDSKPD', $data)
-				. view('templates/footer1');
+				. view('templates/footer');
 		}
 		else{
-			return view('templates/header1', $data)
+			return view('templates/header', $data)
 				. view('reportapbd/DashboardReportAPBD', $data)
-				. view('templates/footer1');
+				. view('templates/footer');
 		}
-
-		
 	}
 
 	public function DetailBelanja($Idunit)
@@ -64,9 +62,9 @@ class ReportAPBD extends BaseController
 
 		$data['getDataDetailBelanja'] = $this->ReportAPBD_model->getDataRealSKPD('5',$Idunit);
 
-		return view('templates/header1', $data)
+		return view('templates/header', $data)
 			. view('reportapbd/DashboardReportBelanjaSKPD', $data)
-			. view('templates/footer1');
+			. view('templates/footer');
 	}
 
 }

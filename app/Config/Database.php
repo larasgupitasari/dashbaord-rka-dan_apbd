@@ -50,28 +50,28 @@ class Database extends Config
         'port'     => 3306,
     ];*/
 
-    /*public $default = [
-        'DSN'   => '',
-        'hostname' => 'localhost',
-        'username' => 'postgres',
-        'password' => '12345678',
-        'database' => 'postgres',
-        'DBDriver' => 'postgre',
-        'DBPrefix' => '',
-        'pconnect' => FALSE,
-        'db_debug' => (ENVIRONMENT !== 'production'),
-        'cache_on' => FALSE,
-        'cachedir' => '',
-        'char_set' => 'utf8',
-        'DBCollat' => 'utf8_general_ci',
-        'swap_pre' => '',
-        'encrypt' => FALSE,
-        'compress' => FALSE,
-        'stricton' => FALSE,
-        'failover' => array(),
-        'save_queries' => TRUE,
-        'port' => 5432
-    ];*/
+    // public $default = [
+    //     'DSN'   => '',
+    //     'hostname' => 'localhost',
+    //     'username' => 'postgres',
+    //     'password' => '12345678',
+    //     'database' => 'postgres',
+    //     'DBDriver' => 'postgre',
+    //     'DBPrefix' => '',
+    //     'pconnect' => FALSE,
+    //     'db_debug' => (ENVIRONMENT !== 'production'),
+    //     'cache_on' => FALSE,
+    //     'cachedir' => '',
+    //     'char_set' => 'utf8',
+    //     'DBCollat' => 'utf8_general_ci',
+    //     'swap_pre' => '',
+    //     'encrypt' => FALSE,
+    //     'compress' => FALSE,
+    //     'stricton' => FALSE,
+    //     'failover' => array(),
+    //     'save_queries' => TRUE,
+    //     'port' => 5432
+    // ];
 
     /*public $default = [
         'DSN'   => '',
@@ -119,6 +119,29 @@ class Database extends Config
         'save_queries' => TRUE,
         'port' => 5432
     ];
+
+    // public $default = [
+    //     'DSN'   => '',
+    //     'hostname' => '10.9.9.93',
+    //     'username' => 'postgres',
+    //     'password' => 'S13r4Tub4n!23',
+    //     'database' => 'sipd_dev',
+    //     'DBDriver' => 'postgre',
+    //     'DBPrefix' => '',
+    //     'pconnect' => FALSE,
+    //     'db_debug' => (ENVIRONMENT !== 'production'),
+    //     'cache_on' => FALSE,
+    //     'cachedir' => '',
+    //     'char_set' => 'utf8',
+    //     'DBCollat' => 'utf8_general_ci',
+    //     'swap_pre' => '',
+    //     'encrypt' => FALSE,
+    //     'compress' => FALSE,
+    //     'stricton' => FALSE,
+    //     'failover' => array(),
+    //     'save_queries' => TRUE,
+    //     'port' => 5432
+    // ];
 
     // /**
     //  * This database connection is used when

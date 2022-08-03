@@ -1,0 +1,51 @@
+CRITICAL - 2022-07-28 02:18:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(38): CodeIgniter\Model->__call('pie_Februari', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasFebruari()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 02:23:25 --> Cannot redeclare App\Models\Home_model::__construct()
+in APPPATH\Models\Home_model.php on line 138.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-28 20:24:59 --> Invalid argument supplied for foreach()
+in APPPATH\Views\dashboard.php on line 1.
+ 1 APPPATH\Views\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\dashboard.php', 1, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 22:39:25 --> Division by zero
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\dashboard.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ReportRAK.php(21): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportRAK->DasboardAnggaranKAS()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportRAK))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 22:43:23 --> Call to a member function SummaryRealisasiBelanja() on null
+in APPPATH\Controllers\ReportRAK.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportRAK->DasboardAnggaranKAS()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportRAK))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 22:44:08 --> Division by zero
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\dashboard.php', 110, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\ReportRAK.php(24): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportRAK->DasboardAnggaranKAS()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportRAK))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,39 @@
+ERROR - 2022-07-17 10:49:45 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+CRITICAL - 2022-07-17 10:49:45 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Login_model.php(20): CodeIgniter\Database\BaseConnection->query('SELECT MU.*, mu2.description , muu.id_reference_unit FROM M_USER MU
+            left join mm_user_unit muu on MU.user_id = muu .user_id and muu .deleted_at is null 
+            left join m_unit mu2 on muu.id_reference_unit = mu2.id_reference_unit and mu2.id_reference_level_unit = \'10\' WHERE MU.USERNAME = \'bpkpad\' AND MU.PASSWORD = \'827ccb0eea8a706c4c34a16891f84e7b\' AND MU.DELETED_AT IS NULL ')
+ 3 APPPATH\Controllers\login.php(43): App\Models\Login_model->getDataUserPass('bpkpad', '827ccb0eea8a706c4c34a16891f84e7b')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-17 10:52:31 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;realisasiapbdyearnowv2&quot; does not exist
+LINE 4:    from realisasiapbdyearnowv2 r
+                ^ in C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #138, 'select coalesce...')
+#2 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select coalesce...')
+#3 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select coalesce...')
+#4 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Models\ReportAPBD_model.php(47): CodeIgniter\Database\BaseConnection->query('select coalesce...')
+#5 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Controllers\ReportAPBD.php(28): App\Models\ReportAPBD_model->getDataReal('4', '5.02.0.00.0.00....', '2')
+#6 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+#7 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+#8 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-17 10:52:31 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ReportAPBD_model.php on line 48.
+ 1 APPPATH\Controllers\ReportAPBD.php(28): App\Models\ReportAPBD_model->getDataReal('4', '5.02.0.00.0.00.04.0000', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ReportAPBD->DashboardAPBD()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportAPBD))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

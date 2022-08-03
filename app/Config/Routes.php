@@ -49,13 +49,13 @@ $routes->get('log_outrak', 'login::log_outrak');
 $routes->get('log_outapbd', 'login::log_outapbd');
 
 $routes->group('', ['filter' => 'auth'], function ($routes) {
-    $routes->get('/', 'Home::DasboardAnggaranKAS');
-	$routes->get('DasboardAnggaranKAS', 'Home::DasboardAnggaranKAS');
-	$routes->get('AnggaranKasFebruari', 'Home::AnggaranKasFebruari');
-	$routes->get('AnggaranKasMaret', 'Home::AnggaranKasMaret');
-	$routes->get('AnggaranKasApril', 'Home::AnggaranKasApril');
-	$routes->get('AnggaranKasMei', 'Home::AnggaranKasMei');
-
+    $routes->get('/', 'ReportRAK::DasboardAnggaranKAS');
+	$routes->get('DasboardAnggaranKAS', 'ReportRAK::DasboardAnggaranKAS');
+	$routes->get('AnggaranKasJanuari', 'ReportRAK::AnggaranKasJanuari');
+	$routes->get('AnggaranKasFebruari', 'ReportRAK::AnggaranKasFebruari');
+	$routes->get('AnggaranKasMaret', 'ReportRAK::AnggaranKasMaret');
+	$routes->get('AnggaranKasApril', 'ReportRAK::AnggaranKasApril');
+	$routes->get('AnggaranKasMei', 'ReportRAK::AnggaranKasMei');
 	
 });
 

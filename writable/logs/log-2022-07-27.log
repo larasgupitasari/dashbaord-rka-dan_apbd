@@ -1,0 +1,205 @@
+ERROR - 2022-07-27 19:47:07 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+CRITICAL - 2022-07-27 19:47:07 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Login_model.php(20): CodeIgniter\Database\BaseConnection->query('SELECT MU.*, mu2.description , muu.id_reference_unit FROM M_USER MU
+            left join mm_user_unit muu on MU.user_id = muu .user_id and muu .deleted_at is null 
+            left join m_unit mu2 on muu.id_reference_unit = mu2.id_reference_unit and mu2.id_reference_level_unit = \'10\' WHERE MU.USERNAME = \'bpkpad\' AND MU.PASSWORD = \'827ccb0eea8a706c4c34a16891f84e7b\' AND MU.DELETED_AT IS NULL ')
+ 3 APPPATH\Controllers\login.php(43): App\Models\Login_model->getDataUserPass('bpkpad', '827ccb0eea8a706c4c34a16891f84e7b')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->do_login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-27 20:29:46 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+CRITICAL - 2022-07-27 20:29:46 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mei_model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_belanja.nm_skpd, SUM(t_rak_belanja.bulan5) AS anggaran, SUM(t_realisasi_rekening_belanja.nilai_realisasi) AS realisasi 
+ 		FROM t_rak_belanja
+ 		LEFT JOIN t_realisasi_rekening_belanja ON t_rak_belanja.kd_skpd=t_realisasi_rekening_belanja.kd_skpd 
+ 		AND t_rak_belanja.kd_sub_kegiatan=t_realisasi_rekening_belanja.kd_sub_kegiatan
+ 		AND t_rak_belanja.kd_rekening=t_realisasi_rekening_belanja.kd_rekening
+ 		WHERE t_realisasi_rekening_belanja.bulan_dok = \'May\'
+ 		GROUP BY t_rak_belanja.nm_skpd,t_rak_belanja.kd_skpd
+ 		ORDER BY t_rak_belanja.kd_skpd')
+ 3 APPPATH\Controllers\Home.php(74): App\Models\Mei_model->getMei()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->AnggaranKasMei()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-27 20:29:50 --> Cannot redeclare Config\Database::$default
+in APPPATH\Config\Database.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-27 20:29:52 --> Cannot redeclare Config\Database::$default
+in APPPATH\Config\Database.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-27 20:29:53 --> Cannot redeclare Config\Database::$default
+in APPPATH\Config\Database.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-27 20:30:00 --> Cannot redeclare Config\Database::$default
+in APPPATH\Config\Database.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-07-27 22:05:04 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+CRITICAL - 2022-07-27 22:05:04 --> Unable to connect to the database.
+Main connection [postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.39.0.16&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Home_model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT t_rak_belanja.nm_skpd, SUM(t_rak_belanja.bulan1) AS anggaran, SUM(t_realisasi_rekening_belanja.nilai_realisasi) AS realisasi 
+ 		FROM t_rak_belanja
+ 		LEFT JOIN t_realisasi_rekening_belanja ON t_rak_belanja.kd_skpd=t_realisasi_rekening_belanja.kd_skpd 
+ 		AND t_rak_belanja.kd_sub_kegiatan=t_realisasi_rekening_belanja.kd_sub_kegiatan
+ 		AND t_rak_belanja.kd_rekening=t_realisasi_rekening_belanja.kd_rekening
+ 		WHERE t_realisasi_rekening_belanja.bulan_dok = \'Jan\'
+ 		GROUP BY t_rak_belanja.nm_skpd,t_rak_belanja.kd_skpd
+ 		ORDER BY t_rak_belanja.kd_skpd')
+ 3 APPPATH\Controllers\Home.php(24): App\Models\Home_model->getJanuari()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-27 23:10:53 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: SELECT r.nm_skpd, SUM(r.) AS anggaran, SUM(t_realisasi_reken...
+                                ^ in C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #141, 'SELECT r.nm_skp...')
+#2 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT r.nm_skp...')
+#3 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r.nm_skp...')
+#4 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Models\Home_model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT r.nm_skp...')
+#5 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Controllers\Home.php(29): App\Models\Home_model->getJanuari(NULL, NULL)
+#6 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-27 23:10:53 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Home_model.php on line 26.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\Home_model->getJanuari(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-27 23:13:14 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: select r.nm_skpd, SUM(r.) AS anggaran, SUM(t_realisasi_reken...
+                                ^ in C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'select r.nm_skp...')
+#2 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select r.nm_skp...')
+#3 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select r.nm_skp...')
+#4 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Models\Home_model.php(25): CodeIgniter\Database\BaseConnection->query('select r.nm_skp...')
+#5 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Controllers\Home.php(29): App\Models\Home_model->getJanuari(NULL, NULL)
+#6 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-27 23:13:14 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Home_model.php on line 26.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\Home_model->getJanuari(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-27 23:13:18 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;)&quot;
+LINE 1: select r.nm_skpd, SUM(r.) AS anggaran, SUM(t_realisasi_reken...
+                                ^ in C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #141, 'select r.nm_skp...')
+#2 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select r.nm_skp...')
+#3 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select r.nm_skp...')
+#4 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Models\Home_model.php(25): CodeIgniter\Database\BaseConnection->query('select r.nm_skp...')
+#5 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Controllers\Home.php(29): App\Models\Home_model->getJanuari(NULL, NULL)
+#6 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-27 23:13:18 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Home_model.php on line 26.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\Home_model->getJanuari(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-27 23:14:18 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;''&quot;
+LINE 1: select r.nm_skpd, SUM(r.'') AS anggaran, SUM(t_realisasi_rek...
+                                ^ in C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #141, 'select r.nm_skp...')
+#2 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select r.nm_skp...')
+#3 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select r.nm_skp...')
+#4 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Models\Home_model.php(25): CodeIgniter\Database\BaseConnection->query('select r.nm_skp...')
+#5 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Controllers\Home.php(29): App\Models\Home_model->getJanuari(NULL, NULL)
+#6 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-27 23:14:18 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Home_model.php on line 26.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\Home_model->getJanuari(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-27 23:16:30 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;''&quot;
+LINE 1: select r.nm_skpd, sum(r.'') AS anggaran, SUM(a.nilai_realisa...
+                                ^ in C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #141, 'select r.nm_skp...')
+#2 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select r.nm_skp...')
+#3 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select r.nm_skp...')
+#4 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select r.nm_skp...')
+#5 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Controllers\Home.php(29): App\Models\Home_model->getJanuari(NULL, NULL)
+#6 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-27 23:16:30 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\Home_model->getJanuari(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-27 23:19:54 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;'bulan1'&quot;
+LINE 1: select r.nm_skpd, sum(r.'bulan1') AS anggaran, SUM(a.nilai_r...
+                                ^ in C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'select r.nm_skp...')
+#2 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('select r.nm_skp...')
+#3 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select r.nm_skp...')
+#4 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Models\Home_model.php(26): CodeIgniter\Database\BaseConnection->query('select r.nm_skp...')
+#5 C:\xampp\htdocs\dashbaord-rka-dan_apbd\app\Controllers\Home.php(26): App\Models\Home_model->getJanuari('bulan1', 'Jan')
+#6 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+#7 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dashbaord-rka-dan_apbd\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashbaord-rka-dan_apbd\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-27 23:19:54 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Home_model.php on line 27.
+ 1 APPPATH\Controllers\Home.php(26): App\Models\Home_model->getJanuari('bulan1', 'Jan')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->DasboardAnggaranKAS()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
